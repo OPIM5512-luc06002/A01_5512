@@ -1,10 +1,22 @@
 # A01: California Housing Boxplot
-This project uses Python to explore housing data and create a boxplot visualization.
+This project uses Python to explore the California Housing dataset and create a boxplot of median house values.
+
 ## Data
-The project uses the California Housing dataset provided by the scikit-learn Python library.
+The project uses the California Housing dataset provided by the scikit-learn Python library. The dataset contains housing-related variables such as median income, house age, population, location, and median house value.
+
 ## How to Run
-Run the following command from the project’s main folder:
+This project uses Python 3.11.
+
+Install the required packages:
+
+python -m pip install -r requirements.txt
+
+Run the script from the main A01 folder:
+
 python src/boxplot.py
+
+
 ## Expected Output
-The script will generate and save a boxplot image at:
-figs/boxplot.png
+The script displays a preview of the dataset in the terminal and saves a boxplot of MedHouseVal at:
+
+![alt text](image.png)
